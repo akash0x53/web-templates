@@ -1,2 +1,2 @@
-htmp-templates
+html-templates
 ==============
