@@ -1,0 +1,189 @@
+/*stylesheet
+Author: Akash Shende
+Contact: akash0x53s@gmail.com
+*/
+
+@font-face
+{
+	font-family: oregano;
+	src:url('Oregano.ttf');
+}
+
+body
+{
+	background-color: #e5e5e5;
+	font-family: oregano;
+	margin: 0px;
+	
+}
+
+
+#main{
+	border:1px solid black;
+	height: 50.6em;
+	min-height: 100%;	
+	
+}
+#submain
+{
+	background-color: #4099FF;
+	height: 13em;
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+#login
+{
+	position: fixed;
+	top: 20%;
+	right: 25%;
+	width: 50%;
+	height: 18em;
+	margin-top: 0em;
+	/*padding-top: 2em;*/
+	background-color: #FFFFFF;
+	box-shadow:0px 3px 6px 0px #666666;	
+	-webkit-border-top-right-radius:15px; /*Chorme*/
+	-webkit-border-bottom-right-radius:15px;
+	
+	-webkit-border-top-left-radius:15px; /*Chorme*/
+	-webkit-border-bottom-left-radius:15px;
+		 
+}
+
+#login form
+{
+	width: 16em;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	padding-right: 17em;
+	
+	
+}
+
+#login form table td
+{
+	padding-left: 0.5em;
+}
+#site_name h5
+{
+	font-family: oregano;
+	font-size:32pt;
+	margin: auto;
+	width: 3.8em;
+	padding-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+.text /*global text setup*/
+{
+	font-family: inherit;
+	font-size: 14pt;
+}
+
+.button
+{
+	height:2.5em;
+	-webkit-border-top-right-radius:10px; /*Chorme*/
+	-webkit-border-bottom-right-radius:10px;
+	
+	-webkit-border-top-left-radius:10px; /*Chorme*/
+	-webkit-border-bottom-left-radius:10px;
+	
+	background-color: #FF4500;
+	color: #FFFFFF;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 7em;
+	font-family: oregano;
+	font-size: 12pt;
+	font-weight: bold;
+	border: none;
+	
+}
+
+.button:hover
+{
+	background-color: black;
+	
+}
+		
+
+.ipbox {
+	
+	height: 40px;
+	font-size: 18pt;
+	background-color: #FFFFFF;
+	border: 1px;
+	box-shadow:1px 1px 2px 1px #666666;
+	margin-bottom: 10px;
+	
+	
+	-webkit-border-top-right-radius:10px; /*Chorme*/
+	-webkit-border-bottom-right-radius:10px;
+	
+	-webkit-border-top-left-radius:10px; /*Chorme*/
+	-webkit-border-bottom-left-radius:10px;	
+			
+}
+input.ipbox
+{
+	color: #C0BABA;
+	-webkit-text-fill-color: #C0BABA;
+	font-family: oregano;
+}
+
+footer
+{
+	/*border: solid 1px white;*/
+	position:relative;
+	clear: both;
+	height:100%;
+	min-height: 5em;
+	z-index: 10;
+	margin-top: -5em;
+	color: white;
+	background-color: #4099FF;
+	text-align: center;	
+	/*padding-top: 2em;*/
+}
+
+/*FOOTER */
+
+#foot_text
+{
+	padding-top: 1em;
+	font-size: small;
+}
+
+
+#foot_menu
+{
+		
+}
+
+#foot_menu ul
+{
+	min-width: 10em;
+	width: 52%;
+}
+#foot_menu a
+{
+	text-decoration: none;
+	color: white;
+}
+#foot_menu a:hover
+{
+	color:#000000;
+}
+#foot_menu ul li
+{
+	list-style: none;
+	float: right;
+	padding-left: 1em;
+	
+}
